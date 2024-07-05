@@ -1,0 +1,135 @@
+/*
+Custom Css
+*/
+.headChange {
+    background-color: #FDE74C;
+}
+.nav-link {
+    color: #abab98 !important;
+    font-weight: bold !important;
+}
+.nav-link:hover {
+    color: #1A1B1C !important;
+}
+.text-dark {
+    color: #E5E9EC !important;
+}
+.activePg {
+    color: #7c0a02 !important;
+}
+/*---------------------------------------------
+ End of Header 
+ ---------------------------------------------*/
+/*-------------------------------------------
+ Start of Hero 
+ -------------------------------------------*/
+ .secondSlide {
+    width: 498px;
+    height: 498px;
+ }
+/*-------------------------------------------
+ End of hero 
+ -------------------------------------------*/
+ /*------------------------------------------
+  Start Categories of The Month 
+  ------------------------------------------*/
+.btn-success:hover {
+    background-color: #FDE74C !important;
+    border-color: #FDE74C !important;
+}
+.rounded-circle {
+    width: 282px;
+    height: 282px;
+}
+ /*-----------------------------------------
+  End Categories of The Month 
+  ------------------------------------------*/
+ /*------------------------------------------
+  Start of Footer 
+  --------------------------------------------*/
+.footColor {
+    background-color:  #5b7c99;
+}
+.cpyright {
+    background-color: #08415C;
+}
+/*----------------------------------------------
+ About 
+ ---------------------------------------------*/
+.abtColor {
+    background-color: #FFFFFF !important;
+    color: #1A1B1C !important;
+}
+
+/* Img hover another img */
+.hoverContainer {
+    position: relative;
+}
+.hoverimg {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 354px;
+    height: 354px;
+    
+    
+    transition: .5s ease;
+}
+.hoverimg img {
+    width: 100%;
+    height: auto;
+}
+.hoverContainer:hover .hoverimg{
+    display: block !important;
+}
+/* .hoverimg:hover .normalimg {
+    display: none !important;
+}  */
+
+
+/* Live Form Validation */
+
+
+  
+  
+  /* Hide and show related .input-requirements when interacting with input */
+  
+  input:not([type="submit"]) + .input-requirements {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 1s ease-out;  
+  }
+  
+  input:not([type="submit"]):hover + .input-requirements,
+  input:not([type="submit"]):focus + .input-requirements,
+  input:not([type="submit"]):active + .input-requirements {
+    max-height: 1000px; /* any large number (bigger then the .input-requirements list) */
+    transition: max-height 1s ease-in;
+  }
+
+  .input-requirements li.invalid {
+	color: #e74c3c;
+    }
+    .input-requirements li.valid {
+	color: #2ecc71;
+    }
+
+.input-requirements li.valid:after {
+	display: inline-block;
+	padding-left: 10px;
+	content: "\2713";
+}
+
+
+
+
+
+/* Media Query */
+@media (min-width: 0px) and (max-width: 1200px){
+   .gone {
+    display: none;
+   } 
+}
